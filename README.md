@@ -9,7 +9,7 @@ Sends all the data from current loaded level in any Unity3D game to editor (repl
 
 
 For game side:
-Compile the dll version of this project (create "DLL/Library" project in visual studio (NET 3.5!!!), add all sources in this project, add reference to GameFolder/%MyGame%_Data\Managed/UnityEngine.dll)
+Compile the dll version of this project ~~(create "DLL/Library" project in visual studio (NET 3.5!!!), add all sources in this project, add reference to GameFolder/%MyGame%_Data\Managed/UnityEngine.dll)~~ Use GameCopy_Game project to build it.
 
 Inject/Call function GameCopy_Game._LoadModule in game (I'm using .NET Reflector + Reflexil plugin. Open Assembly-CSharp.dll add CALL IL instruction in some Awake/Start function in some main script). If injection was successfull you will see Connect button on game screen)
 
