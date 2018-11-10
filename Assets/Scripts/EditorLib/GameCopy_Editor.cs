@@ -23,9 +23,8 @@ public class GameCopy_Editor : MonoBehaviour
 
 	private void OnGUI()
 	{
-		GUILayout.Space(400);
 		GUILayout.Label("Total received: " + SizeSuffix(TCP_CoreClient.TotalReceived));
-		if (GUILayout.Button("Send existent tex"))
+		if (GUILayout.Button("Send cached textures"))
 		{
 			SendExistTex();
 		}

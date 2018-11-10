@@ -8,12 +8,12 @@ public class GameScanner
 	private Dictionary<int, GC_GameObject> AllGameObjects = new Dictionary<int, GC_GameObject>();
 	private List<Transform> ProcessQueue;
 
-	public GameScanner()
+	static GameScanner()
 	{
 		NetworkEvent<ExistTextureInfo>.Subscribe(ExistTex);
 	}
 
-	private void ExistTex(ExistTextureInfo obj)
+	private static void ExistTex(ExistTextureInfo obj)
 	{
 		var texs = obj.TexNames.Split(',');
 		Debug.LogError("Received Exist tex");

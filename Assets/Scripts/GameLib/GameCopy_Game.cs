@@ -13,8 +13,8 @@ public class GameCopy_Game : MonoBehaviour
 	private GameScanner gs;
 	private void Start()
 	{
-		Client = new TCP_CoreClient();
 		gs = new GameScanner();
+		Client = new TCP_CoreClient();		
 		PackagesApplier.Launch();
 	}
 
@@ -29,6 +29,7 @@ public class GameCopy_Game : MonoBehaviour
 		{
 			if (GUILayout.Button("Send World"))
 			{
+				gs = new GameScanner();
 				gs.SendGO();
 			}
 

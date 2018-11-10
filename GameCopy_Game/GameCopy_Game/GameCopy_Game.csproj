@@ -377,12 +377,6 @@
     <Compile Include="..\..\Assets\Scripts\CommonLib\Network\MarshalingUtils\IntPtrHelper.cs">
       <Link>CommonLib\Network\MarshalingUtils\IntPtrHelper.cs</Link>
     </Compile>
-    <Compile Include="..\..\Assets\Scripts\CommonLib\Network\MarshalingUtils\StringArrayMarshaller.cs">
-      <Link>CommonLib\Network\MarshalingUtils\StringArrayMarshaller.cs</Link>
-    </Compile>
-    <Compile Include="..\..\Assets\Scripts\CommonLib\Network\MarshalingUtils\Utils.cs">
-      <Link>CommonLib\Network\MarshalingUtils\Utils.cs</Link>
-    </Compile>
     <Compile Include="..\..\Assets\Scripts\CommonLib\Network\PackageEventSystem.cs">
       <Link>CommonLib\Network\PackageEventSystem.cs</Link>
     </Compile>
