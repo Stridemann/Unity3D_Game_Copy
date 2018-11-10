@@ -17,6 +17,7 @@ In editor just start the GameCopy scene.
 
 Then press Connect in game, then Send The World, Then Send Components.
 
+"Save Tex" in GameCopy_Editor: check it ON for first export the game data. Textures will be saved to Resources folder. Uncheck it for all the next exports. Use "Send Used Textures" button in editor (when the game is connected) to send the texture names that you have already cached in Resource folder, it will not send it's data, it will only use cached.
 
 How everything other works - define urself/read code, etc. 
 No support to this code.
