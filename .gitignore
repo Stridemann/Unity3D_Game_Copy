@@ -328,3 +328,12 @@ ASALocalRun/
 
 # MFractors (Xamarin productivity tool) working folder 
 .mfractor/
+*.jpg
+/Library/
+/Temp
+/Unity.Analytics.Android.Editor.csproj
+/Unity.CollabProxy.Editor.csproj
+/Unity.PackageManagerUI.Editor.csproj
+/Unity.TextMeshPro.csproj
+/Unity.TextMeshPro.Editor.csproj
+/UnityGameCopy.csproj
