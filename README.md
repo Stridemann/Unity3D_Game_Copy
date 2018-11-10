@@ -5,7 +5,7 @@ Sends all the data from current loaded level in any Unity3D game to editor (repl
 
 ![Image](https://raw.githubusercontent.com/Stridemann/Unity3D_Game_Copy/master/Screenshots/2.png)
  
-![Image](https://raw.githubusercontent.com/Stridemann/Unity3D_Game_Copy/master/Screenshots/3.gif)
+![Image](https://raw.githubusercontent.com/Stridemann/Unity3D_Game_Copy/master/Screenshots/4.gif)
 
 
 For game side:
