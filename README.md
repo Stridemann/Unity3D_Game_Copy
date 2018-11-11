@@ -7,6 +7,7 @@ Sends all the data from current loaded level in any Unity3D game to editor (repl
  
 ![Image](https://raw.githubusercontent.com/Stridemann/Unity3D_Game_Copy/master/Screenshots/4.gif)
 
+I'm using Unity 2018.3.0b9, but should works on older (201X) versions.
 
 For game side:
 Compile the dll version of this project ~~(create "DLL/Library" project in visual studio (NET 3.5!!!), add all sources in this project, add reference to GameFolder/%MyGame%_Data\Managed/UnityEngine.dll)~~ Use GameCopy_Game project to build it.
